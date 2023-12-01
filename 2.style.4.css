@@ -45,8 +45,9 @@ p{
     display: flex;
     justify-content: end;
 }
-.list{
+.list1{
     color: gray;
+    cursor: pointer;
 }
 .list1:hover{
     color: rgb(228, 228, 19);
