@@ -60,3 +60,16 @@
     border: 1px solid #ddd;
     padding: 8px;
 }
+.images{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.imgae1{
+    width: 30%;
+    opacity: 0.5;
+}
+.imgae1:hover{
+    opacity: 1;
+}
