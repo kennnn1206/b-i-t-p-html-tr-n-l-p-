@@ -43,12 +43,13 @@ p{
 }
 .text3{
     display: flex;
-    justify-content: end;
+    align-items: center;
+    justify-content: flex-end;
 }
-.list1{
+.list{
     color: gray;
     cursor: pointer;
 }
-.list1:hover{
+.list:hover{
     color: rgb(228, 228, 19);
 }
