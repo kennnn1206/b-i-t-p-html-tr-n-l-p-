@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href=".3.bai1.css" />
+        <link rel="stylesheet" href="./buoi3/3.bai1.css" />
         <script
             src="https://kit.fontawesome.com/533aad8d01.js"
             crossorigin="anonymous"
@@ -25,14 +25,14 @@
             display: flex;
         }
         .left {
-            width: 10%;
+            width: 8%;
             /* position: relative; */
-            background-color: #d7e1f3;
+            background-color: #f3f6fc;
             /* border-right: 1px solid gray; */
             /* overflow: scroll; */
         }
         .left-container {
-            position: fixed;
+            position: sticky;
             height: auto;
         }
         li {
@@ -47,7 +47,7 @@
             color: black;
         }
         .right {
-            width: 90%;
+            width: 100%;
             padding: 5px;
         }
         .inner-container {
@@ -60,13 +60,13 @@
         }
         .inner-head {
             width: 100%;
-            height: 550px;
-            background-image: url(https://phunugioi.com/wp-content/uploads/2020/02/hinh-anh-dep-thien-nhien.jpg);
+            height: 382px;
+            background-image: url(unnamed.jpg);
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            border-radius: 10px;
+            border-radius: 25px;
         }
         .inner-head h1 {
             font-weight: 300;
@@ -207,7 +207,7 @@
         .box-icon {
             display: flex;
             flex-direction: column;
-            margin-bottom: 30px;
+            margin-bottom: 23px;
             font-size: 13px;
             align-items: center;
             /* position: relative; */
@@ -238,12 +238,12 @@
             cursor: pointer;
         }
         .box-icon span {
-            margin-top: 10px;
+            margin-top: 5px;
         }
-        .left-container {
+        .left-container {  
             padding: 20px;
-            padding-right: 40px;
             position: relative;
+            position: fixed;
         }
         .box-icon-develop {
             position: absolute;
@@ -264,6 +264,25 @@
             width: 150px;
             display: inline-block;
         }
+        .box-icon-1{
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid #1f1f1f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -1px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .box-icon-1:hover{
+            background-color: #e2e6ec;
+            color: #1f1f1f;
+        }
+        .box-icon-1 i{
+            font-size: 24px;
+        }
     </style>
     <body>
         <div class="container">
@@ -279,8 +298,7 @@
                         <span>Get started</span>
                     </div>
                     <div class="box-icon box-icon-dv">
-                        <i class="fa-solid fa-arrows-left-right"></i
-                        ><span>Develop</span>
+                        <i class="fa-solid fa-arrows-left-right"></i><span>Develop</span>
                         <div class="box-icon-develop">
                             <ul>
                                 <li>
@@ -315,6 +333,9 @@
                         <i class="fa-brands fa-blogger"></i>
                         <span> Blogs</span>
                     </div>
+                    <div class="box-icon-1">
+                        <i class="fa-regular fa-moon"></i>
+                    </div>
                 </div>
             </div>
             <div class="right">
@@ -336,7 +357,7 @@
                             <div class="inner-list">
                                 <div class="inner-item">
                                     <img
-                                        src="https://th.bing.com/th/id/R.8379b0cf2f327791b7e5a69b5e29d6e3?rik=Eypq9RVp%2bycGPQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-5OiJxFhZc8k%2fVRYqVNG0awI%2fAAAAAAAABg8%2f5zCDsLHB02U%2fs1600%2fanh-dep-3d-ve-thien-nhien-2.jpg&ehk=CnT9KIe5kKoggfxKDntgDBmHGF3PQCbALieLi4mGCMU%3d&risl=&pid=ImgRaw&r=0"
+                                        src="unnamed2.png"
                                         alt=""
                                     />
                                     <div class="desc">
@@ -350,7 +371,7 @@
                                 </div>
                                 <div class="inner-item">
                                     <img
-                                        src="https://i.ytimg.com/vi/rHp95L7G674/maxresdefault.jpg"
+                                        src="unnamed3.png"
                                         alt=""
                                     />
                                     <div class="desc">
@@ -364,7 +385,7 @@
                                 </div>
                                 <div class="inner-item">
                                     <img
-                                        src="https://4.bp.blogspot.com/-LimpYNdedDw/WxNZzTnkrHI/AAAAAAAAALg/9YgFqq5U98sArCyzixJyvYMMvrnl4oO9QCEwYBhgL/s1600/cartoon-love-picture_105431474.gif"
+                                        src="unnamed4.png"
                                         alt=""
                                     />
                                     <div class="desc">
@@ -382,42 +403,37 @@
                             <div class="inner-list">
                                 <div class="inner-item">
                                     <img
-                                        src="https://th.bing.com/th/id/R.8379b0cf2f327791b7e5a69b5e29d6e3?rik=Eypq9RVp%2bycGPQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-5OiJxFhZc8k%2fVRYqVNG0awI%2fAAAAAAAABg8%2f5zCDsLHB02U%2fs1600%2fanh-dep-3d-ve-thien-nhien-2.jpg&ehk=CnT9KIe5kKoggfxKDntgDBmHGF3PQCbALieLi4mGCMU%3d&risl=&pid=ImgRaw&r=0"
+                                        src="unnamed5.png"
                                         alt=""
                                     />
                                     <div class="desc">
-                                        <h3>Figma design kit</h3>
+                                        <h3>M3 for Jetpack Compose</h3>
                                         <p>
-                                            Jumpstart your M3 designs with the
-                                            complete library of ready-made
-                                            components
+                                            With the latest stable release, use Jetpack Compose to build a complete M3 Android app
                                         </p>
                                     </div>
                                 </div>
                                 <div class="inner-item">
                                     <img
-                                        src="https://i.ytimg.com/vi/rHp95L7G674/maxresdefault.jpg"
+                                        src="unnamed6.png"
                                         alt=""
                                     />
                                     <div class="desc">
-                                        <h3>Large screen guidance</h3>
+                                        <h3>New component: M3 carousel</h3>
                                         <p>
-                                            Get started adapting your layouts
-                                            for a range of window size classes
-                                            and hardware
+                                            An expressive new component for displaying scrollable collections of content
                                         </p>
                                     </div>
                                 </div>
                                 <div class="inner-item">
                                     <img
-                                        src="https://4.bp.blogspot.com/-LimpYNdedDw/WxNZzTnkrHI/AAAAAAAAALg/9YgFqq5U98sArCyzixJyvYMMvrnl4oO9QCEwYBhgL/s1600/cartoon-love-picture_105431474.gif"
+                                        src="unnamed7.png"
                                         alt=""
                                     />
                                     <div class="desc">
-                                        <h3>Material Design at Google I/O</h3>
+                                        <h3>Back navigation & gestures</h3>
                                         <p>
-                                            See the full list of Material talks
-                                            and tutorials launching at I/o 2023
+                                            Explore new motion and gesture capabilities for smooth navigation across screens
                                         </p>
                                     </div>
                                 </div>
@@ -425,42 +441,36 @@
                             <div class="inner-list">
                                 <div class="inner-item">
                                     <img
-                                        src="https://th.bing.com/th/id/R.8379b0cf2f327791b7e5a69b5e29d6e3?rik=Eypq9RVp%2bycGPQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-5OiJxFhZc8k%2fVRYqVNG0awI%2fAAAAAAAABg8%2f5zCDsLHB02U%2fs1600%2fanh-dep-3d-ve-thien-nhien-2.jpg&ehk=CnT9KIe5kKoggfxKDntgDBmHGF3PQCbALieLi4mGCMU%3d&risl=&pid=ImgRaw&r=0"
+                                        src="unnamed8.png"
                                         alt=""
                                     />
                                     <div class="desc">
-                                        <h3>Figma design kit</h3>
-                                        <p>
-                                            Jumpstart your M3 designs with the
-                                            complete library of ready-made
-                                            components
+                                        <h3>Motion system updates</h3>
+                                        <p>Get started applying motion, from ready-to-use transition patterns to updated guidance
                                         </p>
                                     </div>
                                 </div>
                                 <div class="inner-item">
                                     <img
-                                        src="https://i.ytimg.com/vi/rHp95L7G674/maxresdefault.jpg"
+                                        src="unnamed9.png"
                                         alt=""
                                     />
                                     <div class="desc">
-                                        <h3>Large screen guidance</h3>
+                                        <h3>Material Theme Builder</h3>
                                         <p>
-                                            Get started adapting your layouts
-                                            for a range of window size classes
-                                            and hardware
+                                            Easily migrate or get started with the M3 color system and dynamic color
                                         </p>
                                     </div>
                                 </div>
                                 <div class="inner-item">
                                     <img
-                                        src="https://4.bp.blogspot.com/-LimpYNdedDw/WxNZzTnkrHI/AAAAAAAAALg/9YgFqq5U98sArCyzixJyvYMMvrnl4oO9QCEwYBhgL/s1600/cartoon-love-picture_105431474.gif"
+                                        src="unnamed10.png"
                                         alt=""
                                     />
                                     <div class="desc">
-                                        <h3>Material Design at Google I/O</h3>
+                                        <h3>New color guidance for tones</h3>
                                         <p>
-                                            See the full list of Material talks
-                                            and tutorials launching at I/o 2023
+                                            Updates include tone-based surface colors, contrast modes, and fixed accent colors
                                         </p>
                                     </div>
                                 </div>
