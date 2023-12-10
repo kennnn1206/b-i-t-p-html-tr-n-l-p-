@@ -170,6 +170,8 @@
             font-size: 25px;
             margin-bottom: 15px;
             position: relative;
+            z-index: -1;
+            cursor: pointer;
         }
         .inner-footer .inner-list .inner-item i::after {
             position: absolute;
@@ -191,6 +193,7 @@
             /* justify-content: center; */
             align-items: center;
             margin-top: 50px;
+            cursor: pointer;
         }
         .end ul {
             display: flex;
@@ -267,6 +270,7 @@
             transition: all 0.2s;
             /* width: 150px; */
             display: inline-block;
+            z-index: 1;
         }
         .box-icon-develop-1 {
             position: absolute;
@@ -283,6 +287,7 @@
             /* width: 150px; */
             display: inline-block;
             overflow: scroll;
+            z-index: 1;
         }
         .develop-box{
             display: flex;
@@ -295,12 +300,14 @@
             display: inline-block;
             border-left: 1px solid rgb(209, 209, 209);
             border-right: 1px solid rgb(209, 209, 209);
+            
         }
         .box-icon-dv:hover .box-icon-develop-1 {
             width: 220px;
             display: inline-block;
             border-left: 1px solid rgb(209, 209, 209);
             border-right: 1px solid rgb(209, 209, 209);
+            
         }
         .box-icon-1{
             width: 48px;
