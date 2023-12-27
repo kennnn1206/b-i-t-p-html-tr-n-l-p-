@@ -20,9 +20,10 @@ body {
     color: white;
     /* padding-top: 10px;
     padding-bottom: 10px; */
-    gap: 1000px;
+    gap: 1100px;
 }
 .ndung{
+    width: 250px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -32,7 +33,7 @@ body {
     border: none;
     padding: 0;
     height: 68px;
-    width: 50px;
+    width: 40px;
 }
 .icon-bar{
     font-size: 20px;
@@ -49,7 +50,7 @@ body {
     color: #fff;
     background-color: #000000;
     position: absolute;
-    top: 11%;
+    top: 65px;
     right: 26px;
     border-top: 3px solid #fff;
     display: none;
@@ -259,7 +260,7 @@ section {
 
 .item img {
     width: 100%;
-    height: 430px;
+    height: 100%;
     image-rendering: optimizeSpeed; 
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
