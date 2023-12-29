@@ -118,6 +118,7 @@ body {
     justify-content: center !important;
     line-height: 68px !important;
     border-left: 1px solid #636363;
+    border-right: 1px solid #636363;
 }
 .icon-envelope {
     width: 46px;
