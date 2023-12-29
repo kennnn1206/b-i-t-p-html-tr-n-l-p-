@@ -126,6 +126,7 @@ header{
     justify-content: center;
     line-height: 46px;
     border-left: 1px solid #636363;
+    border-right: 1px solid #636363;
 }
 .icon-dribble{
     width: 46px;

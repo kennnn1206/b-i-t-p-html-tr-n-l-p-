@@ -1,10 +1,12 @@
-
+body{
+    font-family: 'Inter',sans-serif;
+}
 .container{
     background-color: #20182d;
     padding: 100px !important;
     /* font-family: Arial, Helvetica, sans-serif; */
     margin-left: 100px;
-    font-family: 'Inter',sans-serif;
+   
 }
 .header{
     color: white;
